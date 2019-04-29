@@ -1,0 +1,62 @@
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET / HTTP/1.1" 200 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /overview-frame.html HTTP/1.1" 200 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /allclasses-frame.html HTTP/1.1" 200 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /overview-summary.html HTTP/1.1" 200 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] code 404, message File not found
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /stylesheet.css HTTP/1.1" 200 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /script.js HTTP/1.1" 200 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /stylesheet.css HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /script.js HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+192.168.35.195 - - [29/Apr/2019 11:54:49] code 404, message File not found
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] code 404, message File not found
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.195 - - [29/Apr/2019 11:54:49] code 404, message File not found
+192.168.35.195 - - [29/Apr/2019 11:54:49] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET / HTTP/1.1" 200 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /overview-frame.html HTTP/1.1" 200 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /overview-summary.html HTTP/1.1" 200 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /allclasses-frame.html HTTP/1.1" 200 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /stylesheet.css HTTP/1.1" 200 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /script.js HTTP/1.1" 200 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] code 404, message File not found
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] code 404, message File not found
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] code 404, message File not found
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [29/Apr/2019 11:56:03] code 404, message File not found
+192.168.35.169 - - [29/Apr/2019 11:56:03] "GET /favicon.ico HTTP/1.1" 404 -

@@ -1,0 +1,110 @@
+192.168.35.195 - - [23/Apr/2019 10:32:42] "GET / HTTP/1.1" 200 -
+192.168.35.195 - - [23/Apr/2019 10:32:42] "GET /overview-frame.html HTTP/1.1" 200 -
+192.168.35.195 - - [23/Apr/2019 10:32:42] "GET /allclasses-frame.html HTTP/1.1" 200 -
+192.168.35.195 - - [23/Apr/2019 10:32:42] "GET /overview-summary.html HTTP/1.1" 200 -
+192.168.35.195 - - [23/Apr/2019 10:32:42] "GET /stylesheet.css HTTP/1.1" 200 -
+192.168.35.195 - - [23/Apr/2019 10:32:42] "GET /script.js HTTP/1.1" 200 -
+192.168.35.195 - - [23/Apr/2019 10:32:42] code 404, message File not found
+192.168.35.195 - - [23/Apr/2019 10:32:42] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.195 - - [23/Apr/2019 10:32:42] code 404, message File not found
+192.168.35.195 - - [23/Apr/2019 10:32:42] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.195 - - [23/Apr/2019 10:32:43] code 404, message File not found
+192.168.35.195 - - [23/Apr/2019 10:32:43] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.195 - - [23/Apr/2019 10:32:43] code 404, message File not found
+192.168.35.195 - - [23/Apr/2019 10:32:43] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 10:32:56] "GET / HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 10:32:57] "GET /overview-frame.html HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 10:32:57] "GET /allclasses-frame.html HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 10:32:57] "GET /overview-summary.html HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 10:32:57] "GET /stylesheet.css HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 10:32:57] "GET /script.js HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 10:32:57] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 10:32:57] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 10:32:58] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 10:32:58] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 10:32:59] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 10:32:59] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 10:33:00] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 10:33:00] "GET /favicon.ico HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 10:33:49] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 10:33:49] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 10:33:52] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 10:33:52] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 10:33:53] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 10:33:53] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /favicon.ico HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /overview-frame.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /allclasses-frame.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /overview-summary.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /stylesheet.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /stylesheet.css HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /script.js HTTP/1.1" 200 -
+Traceback (most recent call last):
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 290, in _handle_request_noblock
+    self.process_request(request, client_address)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 318, in process_request
+    self.finish_request(request, client_address)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 331, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 654, in __init__
+    self.finish()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py", line 713, in finish
+    self.wfile.close()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 283, in close
+    self.flush()
+  File "/usr/local/Cellar/python@2/2.7.15_1/Frameworks/Python.framework/Versions/2.7/lib/python2.7/socket.py", line 307, in flush
+    self._sock.sendall(view[write_offset:write_offset+buffer_size])
+error: [Errno 32] Broken pipe
+127.0.0.1 - - [23/Apr/2019 16:03:58] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:03:58] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:03:58] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:04:02] "GET /one/contentbox/boxd/protocol/rpc/package-summary.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:04:02] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:04:02] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:04:02] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:04:05] "GET /one/contentbox/boxd/protocol/rpc/RpcBoxdClientImpl.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:04:05] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:04:05] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:04:05] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:04:25] "GET /one/contentbox/boxd/account/package-frame.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:04:25] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:04:25] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:04:25] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:04:27] "GET /one/contentbox/boxd/account/AccountManager.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:04:27] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:04:27] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:17:44] "GET /one/contentbox/boxd/util/package-frame.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:17:44] "GET /script.js HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:17:44] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:17:44] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:17:45] "GET /one/contentbox/boxd/protocol/core/script/package-frame.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:17:45] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:17:45] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:17:46] "GET /one/contentbox/boxd/protocol/rpc/package-frame.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:17:46] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:17:46] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+127.0.0.1 - - [23/Apr/2019 16:17:47] "GET /one/contentbox/boxd/protocol/rpc/RpcBoxdClientImpl.html HTTP/1.1" 200 -
+127.0.0.1 - - [23/Apr/2019 16:17:47] code 404, message File not found
+127.0.0.1 - - [23/Apr/2019 16:17:47] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 16:19:16] "GET / HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 16:19:20] "GET /overview-frame.html HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 16:19:20] "GET /allclasses-frame.html HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 16:19:33] "GET /overview-summary.html HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 16:19:33] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 16:19:33] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 16:19:33] "GET /script.js HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 16:19:34] "GET / HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 16:19:40] "GET /overview-summary.html HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 16:19:40] "GET /script.js HTTP/1.1" 200 -
+192.168.35.169 - - [23/Apr/2019 16:19:41] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 16:19:41] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 16:19:42] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 16:19:42] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
+192.168.35.169 - - [23/Apr/2019 16:19:43] code 404, message File not found
+192.168.35.169 - - [23/Apr/2019 16:19:43] "GET /resources/fonts/dejavu.css HTTP/1.1" 404 -
